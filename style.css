@@ -7,7 +7,7 @@ body {
 }
 .bg-top-pattern-on-card {
   /* border: 2px solid black; */
-  height: 3rem;
+  height: 4rem;
   background: url('/profile-card-component-main/images/bg-pattern-card.svg');
   /* margin: 5% 5% 0%; */
   border-radius: 1em 1em 0em 0em;
@@ -63,29 +63,29 @@ body {
   width: 100%;
   align-content: space-between;
   position: relative;
-  bottom: -10%;
+  bottom: -8%;
   left: -5%;
   margin: auto auto;
-  font-size: 0.75em;
+  /* font-size: 1.25rem; */
 }
 .name {
   width: 100%;
   height: 80%;
-  margin: 0% 0% 2% 5%;
+  margin: 3% 0% 2% 5%;
   padding: 0% 5%;
   text-align: end;
-  font-size: 1.35em;
+  font-size: 1.95em;
   font-weight: 700;
 }
 .age {
-  font-size: 1.5em;
+  font-size: 1.85em;
   width: 40%;
-  margin: 0% 5% 2% 0%;
+  margin: 3% 5% 2% 0%;
 }
 .city {
   position: relative;
-  bottom: 25%;
-  font-size: 0.8em;
+  bottom: 20%;
+  font-size: 1.25em;
   margin: 0% 0% 0% 0%;
 }
 .likes-followers-following-section {
@@ -104,9 +104,9 @@ body {
   align-items: center;
   width: 100%;
   padding: 5% 4% 2%;
-  line-height: 1.25em;
+  line-height: 1.75em;
   /* border: 2px solid green; */
-  font-size: 0.65em;
+  font-size: 0.75em;
   background-color: white;
 
 }
@@ -155,10 +155,10 @@ body {
   }
   .profile-img {
     display: block;
-    width: 21%;
-    height: 20%;
+    width: 20%;
+    height: 18.05%;
     position: absolute;
-    top: 18%;
+    top: 25%;
     float: none;
     margin: auto;
     left: 0;
@@ -179,11 +179,11 @@ body {
   bottom: 0%;
   left: 0%;
   margin: auto auto;
-  font-size: 0.55em;
+  font-size: 0.15em;
 }
 .city {
   position: relative;
-  bottom: 35%;
+  bottom: 28%;
   font-size: 0.7em;
   margin: 0% 0% 0% 0%;
 }
@@ -208,6 +208,7 @@ body {
   background-color: white;
   padding: 0% 2% 5% 0%;
   margin: 1%;
+}
 }
 @media (min-width:375px) {
   .profile-img {
@@ -275,7 +276,6 @@ body {
     border: 5px solid white;
 }
 }
-}
 @media (min-width:768px) and (max-width:1024px){
   .container {
     width: 75%;
@@ -295,10 +295,10 @@ body {
   }
   .profile-img {
     display: block;
-    width: 17%;
-    height: 21%;
+    width: 18%;
+    height: 23%;
     position: absolute;
-    top: 13%;
+    top: 17%;
     float: none;
     margin: auto;
     left: 0;
@@ -316,10 +316,10 @@ body {
   width: 100%;
   align-content: space-between;
   position: relative;
-  bottom: -15%;
+  /* bottom: 0%; */
   left: -5%;
   margin: auto auto;
-  font-size: 0.75em;
+  font-size: 0.6em;
 }
 .followers,
 .likes,
@@ -336,7 +336,7 @@ body {
 }
 .city {
   position: relative;
-  bottom: 20%;
+  bottom: 23%;
   font-size: 0.8em;
   margin: 0% 0% 0% 0%;
 }
@@ -360,8 +360,8 @@ body {
   }
   .profile-img {
     display: block;
-    width: 19%;
-    height: 18%;
+    width: 25%;
+    height: 21%;
     position: absolute;
     top: 15%;
     float: none;
@@ -386,5 +386,21 @@ body {
   margin: auto auto;
   font-size: 0.75em;
 }
-
+.name-age-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-between;
+  position: relative;
+  bottom: -5%;
+  left: 5%;
+  margin: auto auto;
+  font-size: 0.65em;
+}
+.city {
+  position: relative;
+  bottom: 30%;
+  font-size: 0.95em;
+  margin: 7% 0% 0% 0%;
+}
 }
